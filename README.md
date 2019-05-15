@@ -5,20 +5,3 @@ maven是一个很好的代码构建工具，采用“约定优先于配置”的
 
 　　archetype是在maven-archetype-plugin插件执行generate目标的时候进行配置的，我们经常使用到maven的内嵌的骨架包括：maven-archetype-webapp、maven-archetype-quickstart。前者用来快速搭建一个web工程项目，后者用来快速搭建一个普通的java工程项目。
 
-   demo-archetype
-        ├── pom.xml
-        └── src
-            └── main
-                └── resources
-                    ├── archetype-resources
-                    │   ├── src
-                    │   │   ├── main
-                    │   │   │   └── java
-                    │   │   │        └── Demo.java                    │   │   └── test
-                    │   │       └── java
-                    │   │           └── Demo.java
-                    │   └── pom.xml
-                    └── META-INF
-                        └── maven
-                            ├── archetype.xml
-                            └── archetype-metadata.xml
